@@ -5,7 +5,7 @@ public class App {
     static HelloWorld helloWorld = new HelloWorld();
 
     public static void main(String[] args) throws Exception {
-        helloWorld.helloWorld("Bryan");
+        helloWorld.helloWorld("Jose");
     }
 
 
