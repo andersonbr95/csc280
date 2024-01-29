@@ -7,7 +7,4 @@ public class App {
     public static void main(String[] args) throws Exception {
         helloWorld.helloWorld("Cameron Wiegel");
     }
-
-
 }
-8
