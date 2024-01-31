@@ -9,8 +9,6 @@ Setting up your Github account (If you don’t already have one)
 2.	On the homescreen of the site there should be a text box with a button labeled ‘Sign up for GitHub’ here you’ll enter the email address of your choosing. 
 a.	NOTE: I’d recommend you use your personal email address for this if you’re comfortable with it, otherwise your school email will be fine. Your GitHub will act like a portfolio of programming projects that you’ve completed which will help you stand out in job interviews when the time comes.
 
- ![image](https://github.com/andersonbr95/csc280/assets/77687415/8c81daed-aa74-4203-b1ed-0d0d9124bf63)
-
 
 3.	From here, you should be navigated to the first page in the GitHub account sign up workflow. Your email you entered on the previous screen should carry over, if it didn’t, just type it in again. Following this you’ll enter a password (please create a strong password) and then your username (I typically just use the header from my email).
 a.	Note: Don’t worry about receiving emails from them, just do the account verification and you’ll be good.
