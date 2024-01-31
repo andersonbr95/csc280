@@ -45,7 +45,7 @@ public class QueueOfStrings {
             temp.next = null;
         }
 
-        length--:
+        length--;
         return temp;
     }
 
