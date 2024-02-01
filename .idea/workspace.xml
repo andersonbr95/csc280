@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 1 | Core Message Update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 2 | Contains Method Completion&#10;Module 2 | Progress on Reverse Strings Method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module2/queue/GenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/queue/GenericQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module2/stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/stack/GenericStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module2/stack/StackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/stack/StackOfStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706676245942</updated>
       <workItem from="1706676249518" duration="210000" />
-      <workItem from="1706760720088" duration="6018000" />
+      <workItem from="1706760720088" duration="6718000" />
     </task>
     <task id="LOCAL-00001" summary="Module 1 | Core Message Update">
       <option name="closed" value="true" />
@@ -124,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706676278084</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Module 2 | Contains Method Completion&#10;Module 2 | Progress on Reverse Strings Method">
+      <option name="closed" value="true" />
+      <created>1706769047233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706769047233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Module 1 | Core Message Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 1 | Core Message Update" />
+    <MESSAGE value="Module 2 | Contains Method Completion&#10;Module 2 | Progress on Reverse Strings Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 2 | Contains Method Completion&#10;Module 2 | Progress on Reverse Strings Method" />
   </component>
 </project>

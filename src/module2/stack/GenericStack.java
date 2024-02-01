@@ -46,8 +46,8 @@ public class GenericStack<E> implements Iterable<E>{
         height++;
     }
 
-
-    public Node pop(){
+    //previously had return type of node?
+    public E pop(){
         if(top == null) return null;
 
         Node temp = top; //sets item equal to the top Node and gives it a variable so it can exist in memory
@@ -57,7 +57,7 @@ public class GenericStack<E> implements Iterable<E>{
 
         height --;
 
-        return temp; //returns the value of the recently removed top node
+        return temp.value; //returns the value of the recently removed top node
 
     }
 

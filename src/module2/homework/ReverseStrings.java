@@ -23,8 +23,12 @@ public class ReverseStrings {
 
         String reversedString = "";
 
+        while(!charStack.isEmpty()) {
+            reversedString += charStack.pop();
+        }
 
-        return "";
+
+        return reversedString;
     }
 
 }

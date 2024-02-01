@@ -45,7 +45,8 @@ public class GenericQueue<E> implements Iterable<E> {
         length++;
     }
 
-    public Node dequeue(){
+    //previously had return type node?
+    public E dequeue(){
         if(isEmpty()) return null;
 
         Node temp = first; //storing the soon-to-be removed Node to its own variable in memory
@@ -58,7 +59,7 @@ public class GenericQueue<E> implements Iterable<E> {
         }
 
         length --;
-        return temp;
+        return temp.value;
     }
 
     public boolean isEmpty(){
