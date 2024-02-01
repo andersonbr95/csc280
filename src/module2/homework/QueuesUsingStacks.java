@@ -18,7 +18,7 @@ public class QueuesUsingStacks {
     }
 
     //TODO Write this method using the 2 stacks provided above only
-    public Integer dequeue(){
+    public Integer dequeue() {
         return null;
     }
 

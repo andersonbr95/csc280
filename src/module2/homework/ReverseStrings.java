@@ -16,6 +16,12 @@ public class ReverseStrings {
     private static String reverseString(String myString) {
         GenericStack charStack = new GenericStack(myString.charAt(0));
 
+        /*
+        alternatively:
+        for(char C : myString.toCharArray()) charStack.push(C);
+        but didn't think it was possible to create a stack without parameter since its a generic stack
+         */
+
         //since genericstack requires parameter upon create use charat 0 and add char 1 to length through push
         for(int i = 1; i < myString.length(); i++) {
             charStack.push(myString.charAt(i));
