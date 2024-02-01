@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 2 | Reverse Strings Method Completion">
+    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 2 | Reverse Strings Method Note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/homework/QueuesUsingStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/QueuesUsingStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Homework2Client.executor": "Run",
-    "Application.ReverseStrings.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "sp24csc280-module2-schmidt",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Homework2Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStrings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sp24csc280-module2-schmidt&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ReverseStrings">
     <configuration name="Homework2Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="module2.homework.Homework2Client" />
@@ -109,7 +110,10 @@
       <option name="presentableId" value="Default" />
       <updated>1706676245942</updated>
       <workItem from="1706676249518" duration="210000" />
-      <workItem from="1706760720088" duration="7522000" />
+      <workItem from="1706760720088" duration="8013000" />
+      <workItem from="1706770841744" duration="23000" />
+      <workItem from="1706772316993" duration="15000" />
+      <workItem from="1706773952525" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="Module 1 | Core Message Update">
       <option name="closed" value="true" />
@@ -135,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706769729029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Module 2 | Reverse Strings Method Note">
+      <option name="closed" value="true" />
+      <created>1706770764477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706770764477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +157,7 @@
     <MESSAGE value="Module 1 | Core Message Update" />
     <MESSAGE value="Module 2 | Contains Method Completion&#10;Module 2 | Progress on Reverse Strings Method" />
     <MESSAGE value="Module 2 | Reverse Strings Method Completion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 2 | Reverse Strings Method Completion" />
+    <MESSAGE value="Module 2 | Reverse Strings Method Note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 2 | Reverse Strings Method Note" />
   </component>
 </project>

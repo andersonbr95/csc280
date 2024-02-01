@@ -27,7 +27,7 @@ public class Homework2Client {
         //tests queue contains method
         GenericQueue testContains = new GenericQueue("Wow");
 
-        testContains.enqueue("Crazy");
+        testContains.enqueue("That");
         testContains.enqueue("I");
         testContains.enqueue("Was");
         testContains.enqueue("Once");
@@ -42,7 +42,28 @@ public class Homework2Client {
         testContains.push("wouldnt");
         testContains.push("You");
 
-        System.out.println(testContains.contains(testContains, "That"));*/
+        System.out.println(testContains.contains(testContains, "That"));
+
+        //tests queues using stacks method
+        QueuesUsingStacks queueStackTest = new QueuesUsingStacks();
+
+        queueStackTest.enqueue(2);
+        queueStackTest.enqueue(5);
+        queueStackTest.enqueue(8);
+
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+
+        queueStackTest.enqueue(24);
+        queueStackTest.enqueue(64);
+
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+        System.out.println(queueStackTest.dequeue());
+         */
 
     }
 }
