@@ -1,7 +1,6 @@
 package module2.stack;
 
 
-
 public class StackOfStrings {
 
     private Node top;
@@ -11,27 +10,27 @@ public class StackOfStrings {
         String value;
         Node next;
 
-        Node(String value){
+        Node(String value) {
             this.value = value;
         }
     }
 
-    public StackOfStrings(String value){
+    public StackOfStrings(String value) {
         Node newNode = new Node(value);
         top = newNode;
         height = 1;
 
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return top == null;
     }
 
-    public String peek(){
+    public String peek() {
         return top.value;
     }
 
-    public void push(String item){
+    public void push(String item) {
         Node oldFirst = top;
         top = new Node(item);
 
@@ -41,15 +40,15 @@ public class StackOfStrings {
         height++;
     }
 
-    public String pop(){
+    public String pop() {
         String item = top.value;
         top = top.next;
         return item;
     }
 
-    public void printStack(){
+    public void printStack() {
         Node temp = top;
-        while(temp != null){
+        while (temp != null) {
             System.out.println(temp.value);
             temp = temp.next;
         }

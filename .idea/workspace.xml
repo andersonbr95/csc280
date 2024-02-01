@@ -1,13 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 1 | Core Message Update" />
+    <list default="true" id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 1 | Core Message Update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/Homework2Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/homework/ReverseStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/queue/GenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/queue/GenericQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/stack/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/stack/GenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/stack/StackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/stack/StackOfStrings.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2bhnawszwFZD5EQ98gsPtC8lBAl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Homework2Client.executor": "Run",
+    "Application.ReverseStrings.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "sp24csc280-module2-schmidt",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ReverseStrings">
+    <configuration name="Homework2Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module2.homework.Homework2Client" />
+      <module name="csc280" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module2.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module2.homework.ReverseStrings" />
+      <module name="csc280" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module2.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReverseStrings" />
+        <item itemvalue="Application.Homework2Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db315c91-3d37-410f-a7c8-28a1cfdd76a0" name="Changes" comment="Module 1 | Core Message Update" />
+      <created>1706676245942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706676245942</updated>
+      <workItem from="1706676249518" duration="210000" />
+      <workItem from="1706760720088" duration="6018000" />
+    </task>
+    <task id="LOCAL-00001" summary="Module 1 | Core Message Update">
+      <option name="closed" value="true" />
+      <created>1706676278084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706676278084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Module 1 | Core Message Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 1 | Core Message Update" />
   </component>
 </project>

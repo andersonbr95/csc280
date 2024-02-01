@@ -70,9 +70,15 @@ public class GenericQueue<E> implements Iterable<E> {
     you'll need to uncomment the code around the method to begin
     */
 
-//    public boolean contains(GenericQueue<E> queue, Item item){
-//
-//    }
+    public boolean contains(GenericQueue<E> queue, E item){
+        //use iterator to check each item with item parameter
+        //note: strings case sensitive
+        for(E check : queue) {
+            if(check == item) return true;
+        }
+        //else
+        return false;
+    }
 
 
     public void printQueue(){

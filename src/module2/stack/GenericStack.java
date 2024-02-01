@@ -66,9 +66,15 @@ public class GenericStack<E> implements Iterable<E>{
     you'll need to uncomment the code around the method to begin
      */
 
-//    public boolean contains(GenericStack<E> stack, Item item){
-//
-//    }
+    public boolean contains(GenericStack<E> stack, E item){
+        //use iterator to check each item with item parameter
+        //note: strings case sensitive
+        for(E check : stack) {
+            if(check == item) return true;
+        }
+        //else
+        return false;
+    }
 
 
     public void printStack(){
