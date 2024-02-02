@@ -22,7 +22,7 @@ public class ReverseStrings {
         but didn't think it was possible to create a stack without parameter since its a generic stack
          */
 
-        //since genericstack requires parameter upon create use charat 0 and add char 1 to length through push
+        //since genericstack requires parameter upon creation use charat 0 and add char 1 to length through push
         for(int i = 1; i < myString.length(); i++) {
             charStack.push(myString.charAt(i));
         }
