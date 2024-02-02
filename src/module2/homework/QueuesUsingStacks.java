@@ -10,6 +10,8 @@ public class QueuesUsingStacks {
     public QueuesUsingStacks(){
         stack1 = new GenericStack<Integer>(1);
         stack2 = new GenericStack<Integer>(2);
+        stack1.pop();
+        stack2.pop();
     }
 
     //TODO write this method using the 2 stacks provided above only
@@ -35,10 +37,10 @@ public class QueuesUsingStacks {
     }
 
     public int peek(){
-        return stack1.peek();
+        return stack2.peek();
     }
 
     public boolean isEmpty(){
-        return stack1.isEmpty();
+        return stack2.isEmpty();
     }
 }

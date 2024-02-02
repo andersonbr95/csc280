@@ -7,7 +7,7 @@ public class Homework2Client {
 
     public static void main(String[] args) {
 
-        /*QueuesUsingStacks queueUsingStacks = new QueuesUsingStacks();
+        QueuesUsingStacks queueUsingStacks = new QueuesUsingStacks();
 
         queueUsingStacks.enqueue(1);
         queueUsingStacks.enqueue(5);
@@ -23,7 +23,7 @@ public class Homework2Client {
         System.out.println("The Front of the Queue is " + queueUsingStacks.peek());
 
         System.out.println("Is the Queue Empty?: " + queueUsingStacks.isEmpty());
-
+        /*
         //tests queue contains method
         GenericQueue testContains = new GenericQueue("Wow");
 
@@ -61,9 +61,9 @@ public class Homework2Client {
         System.out.println(queueStackTest.dequeue());
         System.out.println(queueStackTest.dequeue());
         System.out.println(queueStackTest.dequeue());
-        System.out.println(queueStackTest.dequeue());
-        System.out.println(queueStackTest.dequeue());
          */
+
+
 
     }
 }
