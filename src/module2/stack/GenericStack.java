@@ -1,6 +1,8 @@
 package module2.stack;
 
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Stack;
 
 public class GenericStack<E> implements Iterable<E>{
     private Node top;
@@ -66,9 +68,20 @@ public class GenericStack<E> implements Iterable<E>{
     you'll need to uncomment the code around the method to begin
      */
 
-//    public boolean contains(GenericStack<E> stack, Item item){
-//
-//    }
+    public boolean contains(GenericStack<E> stack, E item){
+        LinkedList<E> list = new LinkedList<E>();
+
+        StackIterator iterator = new StackIterator();
+
+        while(iterator.hasNext())
+            list.add(iterator.next());
+
+        for(E element : list)
+            if(element == item)
+                return true;
+
+        return false;
+    }
 
 
     public void printStack(){
