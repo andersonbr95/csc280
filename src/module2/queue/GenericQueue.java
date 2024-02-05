@@ -70,10 +70,15 @@ public class GenericQueue<E> implements Iterable<E> {
     you'll need to uncomment the code around the method to begin
     */
 
-//    public boolean contains(GenericQueue<E> queue, Item item){
-//
-//    }
-
+    public boolean contains(E item) {
+        Node temp = first;
+        while(temp != null) {
+            if(temp.value.equals(item)) {
+                return true; }
+            temp = temp.next;
+        }
+        return false;
+    }
 
     public void printQueue(){
         Node temp = first;
