@@ -16,19 +16,18 @@ public class ReverseStrings {
     private static String reverseString(String myString) {
 //        String reversedString = "";
         char[] charArray = myString.toCharArray();
+        int arrIndex = 0;
         GenericStack<Character> stackOfChars = new GenericStack<>(charArray[0]);
 
         for(int i = 1; i < myString.length(); i++) {
             stackOfChars.push(myString.charAt(i));
         }
 
-        for(int i = 0; i < myString.length(); i++){
-            if(!stackOfChars.isEmpty()){
-                charArray[i] = stackOfChars.peek();
-                stackOfChars.pop();
-            }
+        while(!stackOfChars.isEmpty()) {
+            charArray[arrIndex] = stackOfChars.peek();
+            stackOfChars.pop();
+            arrIndex++;
         }
-
         return new String(charArray);
     }
 
