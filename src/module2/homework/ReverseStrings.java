@@ -14,9 +14,8 @@ public class ReverseStrings {
 
     /*TODO HOMEWORK CREATE THIS METHOD USING STACKS*/
     private static String reverseString(String myString) {
-//        String reversedString = "";
+        StringBuilder reversedString = new StringBuilder();
         char[] charArray = myString.toCharArray();
-        int arrIndex = 0;
         GenericStack<Character> stackOfChars = new GenericStack<>(charArray[0]);
 
         for(int i = 1; i < myString.length(); i++) {
@@ -24,11 +23,10 @@ public class ReverseStrings {
         }
 
         while(!stackOfChars.isEmpty()) {
-            charArray[arrIndex] = stackOfChars.peek();
+            reversedString.append(stackOfChars.peek());
             stackOfChars.pop();
-            arrIndex++;
         }
-        return new String(charArray);
-    }
 
+        return reversedString.toString();
+    }
 }
