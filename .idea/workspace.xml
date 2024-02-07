@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2388c79b-019a-457c-acb8-425c11c6ca23" name="Changes" comment="Module 1 | Updated Central App File" />
+    <list default="true" id="2388c79b-019a-457c-acb8-425c11c6ca23" name="Changes" comment="Module 1 | Updated Central App File">
+      <change afterPath="$PROJECT_DIR$/src/Module3/SimpleBigO/InDepthBigO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module3/SimpleBigO/SimpleBigO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.InDepthBigO.java.executor": "Run",
     "Application.StackClient.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,9 +54,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InDepthBigO.java" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="module2.stacks.StackClient" />
-      <module name="csc280" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="module2.stacks.*" />
@@ -64,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackClient" />
-        <item itemvalue="Application.StackClient" />
+        <item itemvalue="Application.InDepthBigO.java" />
+        <item itemvalue="Application.InDepthBigO.java" />
       </list>
     </recent_temporary>
   </component>
