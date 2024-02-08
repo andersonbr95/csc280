@@ -14,11 +14,19 @@ public class QueuesUsingStacks {
 
     //TODO write this method using the 2 stacks provided above only
     public void enqueue(Integer value){
-
+        stack1.push(value);
     }
 
     //TODO Write this method using the 2 stacks provided above only
-    public Integer dequeue(){
+    public Integer dequeue() {
+        if (stack2.isEmpty()) {
+            while (!stack1.isEmpty()) {
+                stack2.push(stack1.peek());
+            }
+        }
+        if(!stack2.isEmpty()){
+            return stack2.peek();
+        }
         return null;
     }
 

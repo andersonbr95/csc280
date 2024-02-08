@@ -65,10 +65,16 @@ public class GenericStack<E> implements Iterable<E>{
     this method will check to see if a stack contains a specified Item using a LinkedList, not an ArrayList
     you'll need to uncomment the code around the method to begin
      */
-
-//    public boolean contains(GenericStack<E> stack, Item item){
-//
-//    }
+    public boolean contains(E item){
+        Node temp = top;
+        while (temp != null) {
+            if(temp.value.equals(item)){
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
 
 
     public void printStack(){
