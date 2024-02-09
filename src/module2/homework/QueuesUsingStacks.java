@@ -13,26 +13,23 @@ public class QueuesUsingStacks {
     }
 
     //TODO write this method using the 2 stacks provided above only
-    public void enqueue(Integer x){
-        // (Credit to GeekforGeeks) Move all elements from stack1 to stack2
-//        while (!stack1.isEmpty())
-//        {
-//            stack2.push(stack1.pop());
-//            //stack1.pop();
-//        }
-//
-// // Push item into stack1
-//        stack1.push(x);
+    public Integer dequeue() {
+        if (stack1.isEmpty()) {
+            return null;
+        }
 
-        // Push everything back to stack1
-//       while (!stack2.isEmpty())
-//        {
-//            stack1.push(stack2.pop());
-//            //stack2.pop();
-//        }
+        while (!stack1.isEmpty()) {
+            stack2.push(stack1.pop());
+        }
+
+        Integer dqItem = stack2.pop();
+
+        while (!stack2.isEmpty()) {
+            stack1.push(stack2.pop());
+        }
+        return dqItem;
     }
 
-    //TODO Write this method using the 2 stacks provided above only
     public Integer dequeue(){
         return null;
     }
