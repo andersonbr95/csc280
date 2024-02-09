@@ -70,19 +70,18 @@ public class GenericQueue<E> implements Iterable<E> {
     you'll need to uncomment the code around the method to begin
     */
 
-    public boolean contains(GenericQueue<E> queue, Item item){
-        QIterator iterator = new QIterator();
-        LinkedList<E> list = new LinkedList<>();
+    public boolean contains(GenericQueue<E> queue, E item){
+//        QIterator iterator = new QIterator();
+//        LinkedList<E> list = new LinkedList<>();
+//        while(list.hasNext()){
+//            list.add(iterator.next());   PAIN =(
+//            Element slot = list.get();
 
-        while(list.hasNext())
-            list.add(iterator.next());
-
-
-
-
-
-
-
+            for(E slot : queue){
+                if (slot.equals(item)){
+                    return true;
+                }}
+                    return false;
 
     }
 
