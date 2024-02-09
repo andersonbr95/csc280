@@ -1,9 +1,7 @@
 package module2.resizeArrays;
 
-import module2.queue.GenericQueue;
 import module2.stack.GenericStack;
 
-import java.sql.SQLOutput;
 import java.util.NoSuchElementException;
 
 public class ArrayStack {

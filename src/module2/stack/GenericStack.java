@@ -1,7 +1,5 @@
 package module2.stack;
 
-import module2.queue.GenericQueue;
-
 import java.util.Iterator;
 
 public class GenericStack<E> implements Iterable<E>{
@@ -68,16 +66,9 @@ public class GenericStack<E> implements Iterable<E>{
     you'll need to uncomment the code around the method to begin
      */
 
-//    public boolean contains(E item) {
-        Node temp = top;
-        while(temp != null) {
-            if(temp.value.equals(item)) {
-                return true; }
-            temp = temp.next;
-        }
-        return false;
-    }
-
+//    public boolean contains(GenericStack<E> stack, Item item){
+//
+//    }
 
 
     public void printStack(){
