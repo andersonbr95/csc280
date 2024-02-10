@@ -29,10 +29,10 @@ public class QueuesUsingStacks {
         }
         return dqItem;
     }
-
-    public Integer dequeue(){
-        return null;
-    }
+//
+//    public Integer dequeue(){
+//        return null;
+//    }
 
     public int peek(){
         return stack1.peek();
