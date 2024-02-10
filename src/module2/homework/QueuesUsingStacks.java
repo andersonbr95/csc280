@@ -1,5 +1,3 @@
-package module2.homework;
-
 import module2.stack.GenericStack;
 
 public class QueuesUsingStacks {
@@ -30,9 +28,9 @@ public class QueuesUsingStacks {
         return dqItem;
     }
 //
-//    public Integer dequeue(){
-//        return null;
-//    }
+    public void enqueue(Integer enItem) {
+        stack1.push(enItem);
+    }
 
     public int peek(){
         return stack1.peek();

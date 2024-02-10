@@ -73,9 +73,6 @@ public class GenericQueue<E> implements Iterable<E> {
     public boolean contains(GenericQueue<E> queue, E item){
 //        QIterator iterator = new QIterator();
 //        LinkedList<E> list = new LinkedList<>();
-//        while(list.hasNext()){
-//            list.add(iterator.next());   PAIN =(
-//            Element slot = list.get();
 
             for(E slot : queue){
                 if (slot.equals(item)){
