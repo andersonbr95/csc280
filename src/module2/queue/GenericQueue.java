@@ -4,6 +4,7 @@ package module2.queue;
 import module2.stack.GenericStack;
 
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class GenericQueue<E> implements Iterable<E> {
 
@@ -70,9 +71,17 @@ public class GenericQueue<E> implements Iterable<E> {
     you'll need to uncomment the code around the method to begin
     */
 
-//    public boolean contains(GenericQueue<E> queue, Item item){
-//
-//    }
+    public boolean contains(GenericQueue<E> queue, E item){
+        LinkedList<E> linkedList = new LinkedList<>();
+        Node node = first;
+        while(node != null){
+            if(node.value.equals(item)){
+                return true;
+            }
+            node = node.next;
+        }
+        return false;
+    }
 
 
     public void printQueue(){
