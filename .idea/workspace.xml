@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2388c79b-019a-457c-acb8-425c11c6ca23" name="Changes" comment="Module 1 | Updated Central App File">
-      <change afterPath="$PROJECT_DIR$/src/Module3/SimpleBigO/InDepthBigO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3/SimpleBigO/SimpleBigO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2388c79b-019a-457c-acb8-425c11c6ca23" name="Changes" comment="Module 1 | Updated Central App File" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706669177086</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Module 1 | Updated Central App File">
+      <option name="closed" value="true" />
+      <created>1707269093625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707269093625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
