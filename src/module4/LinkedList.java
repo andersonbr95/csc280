@@ -68,22 +68,60 @@ public class LinkedList {
     }
 
     public void bubbleSort(){
-        // WRITE BUBBLESORT METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+        if (length < 2){
+            return;
+        }
+        Node sortedUntil = null;
+
+        while (sortedUntil != head.next ){
+            Node current = head;
+            while (current.next != sortedUntil){
+                if(current.value > current.next.value){
+
+                    int temp = current.value;
+                    current.value = current.next.value;
+                    current.next.value = temp;
+
+                }
+                current = current.next;
+            }
+            sortedUntil = current;
+        }
     }
 
     public void merge(LinkedList otherList){
+        Node otherHead = otherList.getHead();
+        Node dummy = new Node(0);
+        Node current = dummy;
 
-        // WRITE MERGE METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+        while (head != null && otherHead != null ){
+            if(head.value <= otherHead.value){
+                current.next = head;
+                head = head.next;
+            }
+            else {
+                current.next = otherHead;
+                otherHead = otherHead.next;
+            }
+            current = current.next;
+        }
+
+        if (head != null){
+            current.next = head;
+            while (current.next != null){
+                current = current.next;
+            }
+        }
+        else if (otherHead != null){
+            current.next = otherHead;
+            while (current.next != null){
+                current = current.next;
+            }
+        }
+
+        head = dummy.next;
+        length += otherList.getLength();
+
     }
 
 }
