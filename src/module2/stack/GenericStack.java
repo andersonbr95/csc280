@@ -47,17 +47,17 @@ public class GenericStack<E> implements Iterable<E>{
     }
 
 
-    public Node pop(){
+    public E pop(){
         if(top == null) return null;
 
-        Node temp = top; //sets item equal to the top Node and gives it a variable so it can exist in memory
+        Node temp = top; //sets item equal to the top Node and gives it a variable, so it can exist in memory
 
         top = top.next; //sets the top node to the node it points to. This will remove the previous top node upon garbage collection
         temp.next = null;
 
         height --;
 
-        return temp; //returns the value of the recently removed top node
+        return temp.value; //returns the value of the recently removed top node
 
     }
 
@@ -66,9 +66,20 @@ public class GenericStack<E> implements Iterable<E>{
     you'll need to uncomment the code around the method to begin
      */
 
-//    public boolean contains(GenericStack<E> stack, Item item){
-//
-//    }
+    public boolean contains(GenericStack<E> stack, E item){
+        Node temp = top;
+        if(top == null) return false;
+
+        while(!stack.isEmpty()) {
+            if(temp.value == item){
+                return true;
+            } else {
+                temp = temp.next;
+                stack.pop();
+            }
+        }
+        return false;
+    }
 
 
     public void printStack(){
