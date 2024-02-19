@@ -69,21 +69,55 @@ public class LinkedList {
 
     public void bubbleSort(){
         // WRITE BUBBLESORT METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+        if(length < 2) return;
+
+        Node sortedUntil;
+        sortedUntil = null;
+
+        while(sortedUntil != this.head.next) {
+            Node current = head;
+            while(current.next != sortedUntil) {
+                if(current.value > current.next.value) swap(current, current.next);
+                current = current.next;
+            }
+            sortedUntil = current;
+        }
     }
 
     public void merge(LinkedList otherList){
-
         // WRITE MERGE METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+        Node otherHead = otherList.head;
+        Node dummy = new Node(0);
+        Node current = dummy;
+
+        while(head != null &&  otherHead != null) {
+            if(head.value <= otherHead.value) {
+                current.next = head;
+                head = head.next;
+            }
+            else {
+                current.next = otherHead;
+                otherHead = otherHead.next;
+                length++;
+            }
+            current = current.next;
+        }
+
+        if(head != null) {
+            append(head.value);
+        }
+
+        if(otherHead != null) {
+            append(otherHead.value);
+        }
+
+        head = dummy.next;
+    }
+
+    public void swap(Node node1, Node node2) {
+        int temp = node1.value;
+        node1.value = node2.value;
+        node2.value =  temp;
     }
 
 }
