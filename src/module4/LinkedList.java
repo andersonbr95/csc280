@@ -67,23 +67,55 @@ public class LinkedList {
         length++;
     }
 
-    public void bubbleSort(){
-        // WRITE BUBBLESORT METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+    public void bubbleSort() {
+        // Check if the length of the linked list is less than 2
+        if (length < 2)
+            return;
+
+        Node sortedUntil = null; // Marker to the end of the sorted portion
+
+        while (sortedUntil != head.next) {
+            Node current = head; // Start from the head
+            while (current.next != sortedUntil) {
+                if (current.value > current.next.value) {
+                    // Swap values
+                    int temp = current.value;
+                    current.value = current.next.value;
+                    current.next.value = temp;
+                }
+                current = current.next;
+            }
+            sortedUntil = current; // Mark the end of the sorted portion
+        }
     }
 
-    public void merge(LinkedList otherList){
-
-        // WRITE MERGE METHOD HERE //
-        // //
-        // //
-        // //
-        // //
-        /////////////////////////////
+    public void merge(LinkedList otherList) {
+        Node dummy = new Node(0);
+        Node otherHead = otherList.head;
+        Node current = dummy;
+        while (head != null && otherHead != null) {
+            if(head.value < otherHead.value)    {
+                current.next = head;
+                head = head.next;
+                current = current.next;
+            }
+            else    {
+                current.next = otherHead;
+                otherHead = otherHead.next;
+                current = current.next;
+            }
+        }
+        if (head == null)    {
+            current.next = otherHead;
+        }
+        else  {
+            current.next = head;
+        }
+        while(current.next != null)   {
+            current = current.next;
+        }
+        head = dummy.next;
+        tail = current;
+        length += otherList.length;
     }
-
-}
+    }
