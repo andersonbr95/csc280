@@ -1,6 +1,8 @@
 package module4;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class MergeSort {
 
@@ -79,5 +81,20 @@ public class MergeSort {
 
         System.out.println(Arrays.toString(myArray));
         System.out.println(Arrays.toString(sortedArray));
+    }
+
+    public int[] mergeSort(List<Integer> integers) {
+        int[] array = new int[integers.size()];
+        for (int i = 0; i < integers.size(); i++) {
+            array[i] = integers.get(i);
+        }
+        int[] sortedArray = mergeSort(array);
+        List<Integer> sortedList = new ArrayList<>();
+        for (int num : sortedArray) {
+            sortedList.add(num);
+        }
+        integers.clear();
+        integers.addAll(sortedList);
+        return array;
     }
 }
